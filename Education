@@ -1,0 +1,15 @@
+public class Education
+{
+    public string degree { get; set; }
+    public string institution { get; set; }
+    public int startYear { get; set; }
+    public int endYear { get; set; }
+
+    public Education(string degree, string institution, int startYear, int endYear)
+    {
+        this.degree = degree;
+        this.institution = institution;
+        this.startYear = startYear;
+        this.endYear = endYear;
+    }
+}
