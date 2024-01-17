@@ -1,0 +1,14 @@
+public class WorkExperience
+{
+    public string company { get; set; }
+    public string title { get; set; }
+    public int startYear { get; set; }
+    public int endYear { get; set; }
+
+    public WorkExperience(string company, string title, int startYear, int endYear)
+    {
+        this.company = company;
+        this.title = title;
+        this.startYear = startYear;
+        this.endYear = endYear;
+    }
